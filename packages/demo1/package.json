@@ -1,0 +1,25 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "demo1",
+  "author": "caoyanxuan <1329505633@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/demo1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.yzw.cn/"
+  },
+  "dependencies": {
+    "antd": "3.26.19"
+  },
+  "devDependencies": {
+    "@umijs/plugin-qiankun": "^2.25.0"
+  }
+}
